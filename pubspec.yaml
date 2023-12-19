@@ -1,0 +1,31 @@
+name: omar_aad_oauth
+description: A Flutter OAuth package for performing user authentication against
+  Azure Active Directory OAuth2 v2.0 endpoint.
+version: 0.4.4
+homepage: https://github.com/Earlybyte/aad_oauth
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^8.0.0
+  webview_flutter: ^4.2.0
+  js: any
+  http: ^0.13.6
+  pedantic: ^1.11.1
+  shared_preferences: ^2.1.1
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+#  flutter_webview_plugin: ^0.4.0
+  flutter_inappwebview: ^5.8.0
+  dio: ^4.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+  - assets/msalv2.js
